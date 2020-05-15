@@ -42,3 +42,12 @@ print (f"runtime: {end_time - start_time} seconds")
 # What's the best time you can accomplish?  Thare are no restrictions on techniques or data
 # structures, but you may not import any additional libraries that you did not write yourself.
 
+
+# storage = []
+
+# for name in names_1:
+#     storage.append(name)
+
+# for name in names_2:
+#     if name in storage:
+#         duplicates.append(name)
