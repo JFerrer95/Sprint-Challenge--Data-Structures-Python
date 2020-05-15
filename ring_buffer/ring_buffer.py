@@ -3,7 +3,7 @@ from doubly_linked_list import DoublyLinkedList
 class RingBuffer:
     def __init__(self, capacity):
         self.capacity = capacity
-        self.oldestValue = None
+        self.oldest = None
         self.storage = DoublyLinkedList()
 
     def append(self, item):
@@ -19,7 +19,6 @@ class RingBuffer:
                 self.oldest = self.oldest.next
             else:
                 self.oldest = self.storage.head
-
 
     def get(self):
         ring_buffer_list = []
